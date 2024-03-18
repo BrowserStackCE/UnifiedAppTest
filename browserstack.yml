@@ -1,0 +1,30 @@
+userName:
+accessKey:
+
+projectName: test-sample-1
+
+buildName: Single Demo TestNG
+
+buildIdentifier: '#${BUILD_NUMBER}'
+framework: testng
+
+platforms:
+  - os: Windows
+    osVersion: 11
+    browser: Chrome
+    browserVersion: latest
+
+parallelsPerPlatform: 1
+
+source: testng:archetype-setup:v1.5
+
+browserstackLocal: true
+debug: true
+networkLogs: true
+consoleLogs: errors
+logLevel: debug
+browserstackAutomation: true
+#seleniumVersion: 3.9.0
+#seleniumCdp: true
+testObservability: true
+

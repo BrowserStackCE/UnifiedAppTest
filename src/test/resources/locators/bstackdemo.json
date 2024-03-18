@@ -1,0 +1,30 @@
+{
+	"add-to-cart-12":{
+		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
+		"android": "accessibilityId = //*[@content-desc = 'Search']",
+		"ios": "id = sample",
+
+},
+	"cartBtn": {
+		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
+		"android": "xpath = //*[@content-desc = 'Search']",
+		"ios": "id = sample"
+	},
+	"checkout-btn": {
+		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
+		"android": "xpath = //*[@content-desc = 'Search']",
+		"ios": "id = sample"
+	},
+	"username-input":
+	{
+		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
+		"android": "xpath = //*[@content-desc = 'Search']",
+		"ios": "id = sample"
+	},
+	"userNameVal": {
+		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
+		"android": "xpath = //*[@content-desc = 'Search']",
+		"ios": "id = sample"
+	}
+
+}
