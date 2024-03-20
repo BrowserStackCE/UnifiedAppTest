@@ -1,30 +1,43 @@
 {
-	"add-to-cart-12":{
-		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
-		"android": "accessibilityId = //*[@content-desc = 'Search']",
-		"ios": "id = sample",
-
-},
-	"cartBtn": {
-		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
-		"android": "xpath = //*[@content-desc = 'Search']",
-		"ios": "id = sample"
-	},
-	"checkout-btn": {
-		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
-		"android": "xpath = //*[@content-desc = 'Search']",
-		"ios": "id = sample"
-	},
-	"username-input":
-	{
-		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
-		"android": "xpath = //*[@content-desc = 'Search']",
-		"ios": "id = sample"
-	},
-	"userNameVal": {
-		"mobile": "xpath = //*[@aria-label='Search YouTube' and contains(@class, 'avatar-button')]",
-		"android": "xpath = //*[@content-desc = 'Search']",
-		"ios": "id = sample"
-	}
+  "add-to-cart-12": {
+    "android": "accessibilityId = add-to-cart-12",
+    "ios": "accessibilityId = add-to-cart-12"
+  },
+  "cartBtn": {
+    "android": "accessibilityId = nav-cart",
+    "ios": "accessibilityId = nav-cart"
+  },
+  "checkout-btn": {
+    "android": "accessibilityId = checkout-btn",
+    "ios": "accessibilityId = checkout-btn"
+  },
+  "username-input": {
+    "android": "accessibilityId = username-input",
+    "ios": "accessibilityId = username-input"
+  },
+  "userNameVal": {
+    "android": "xpath = //XCUIElementTypePickerWheel[@value='Accepted usernames are']",
+    "ios": "xpath = //XCUIElementTypePickerWheel[@value='Accepted usernames are']"
+  },
+  "password-input": {
+    "android": "accessibilityId = password-input",
+    "ios": "accessibilityId = password-input"
+  },
+  "pwdVal": {
+    "android":"xpath= //XCUIElementTypePickerWheel[@value='Password for all users']",
+    "ios": "xpath= //XCUIElementTypePickerWheel[@value='Password for all users']"
+  },
+  "login-btn": {
+    "android": "accessibilityId = login-btn",
+    "ios": "accessibilityId = login-btn"
+  },
+  "menu": {
+    "android": "accessibilityId = menu",
+    "ios": "accessibilityId = menu"
+  },
+  "nav-signin": {
+    "android": "accessibilityId = nav-signin",
+    "ios": "accessibilityId = nav-signin"
+  },
 
 }

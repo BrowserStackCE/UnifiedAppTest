@@ -1,8 +1,6 @@
 package com.browserstack.UnifiedAppTest.Utils.webdriver;
 
 import com.browserstack.UnifiedAppTest.Utils.Channel;
-import com.example.Channel;
-import com.example.ScrollDirection;
 import com.google.common.io.Files;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
